@@ -28,22 +28,46 @@ main, footer{
 section img{
     max-width: 250px;
 }
+
+section{
+    padding: 60px 0;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+p{
+    padding-top: 15px; 
+    font-size: 20px;
+}
+
+
 #portfolio, #contact{
     color: #2c3e50;
 }
 
-.ri-star-fill{
-    width: 100px;
-    height: 100px;
-    color:#2c3e50;
+
+.star-wrapper.ri-star-fill{
+    width: 120px;
+    height: 120px;
+    color: white;
+    font-size: 50px;
+}
+
+#portfolio, .star-wrapper.ri-star-fill{
+    color: #2c3e50;
 }
 
 #about{
     background-color: #1abc9c;
 }
 
-#about h1{
+#about h2{
     color: white;
+    font-size: 25px;
 }
 
 
