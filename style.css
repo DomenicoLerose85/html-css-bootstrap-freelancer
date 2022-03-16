@@ -1,17 +1,35 @@
-.debug{
+/* .debug{
     border: 1px solid black;
-}
+} */
+
+/* header */
 
 .header-dimension{
     height: 90px;
+}
+
+/* /header */
+
+/* main */
+
+main, footer{
+    color: white;
+    text-align: center;
 }
 
 .background-jumbo{
     background-color: #1abc9c;
 }
 
-#portfolio{
+/* #portfolio{
     background-color: white;
+} */
+
+section img{
+    max-width: 250px;
+}
+#portfolio, #contact{
+    color: #2c3e50;
 }
 
 .ri-star-fill{
@@ -28,6 +46,11 @@
     color: white;
 }
 
+
+/* /main */
+
+/* footer */
+
 .top-footer-dimension{
     height: 300px;
     background-color: #3a546d;
@@ -38,7 +61,20 @@
     background-color: #2c3e50;
 }
 
+.address{
+    color: white;
+    padding-left: 150px;
+}
+.h4-text-color{
+    color: white;
+    line-height: 25px;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+
 .h5-text-color{
     color: white;
-    line-height: 75px;
+    line-height: 77px;
 }
+
+/* /footer */
