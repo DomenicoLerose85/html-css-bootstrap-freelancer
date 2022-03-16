@@ -141,17 +141,51 @@ p {
     background-color: #2c3e50;
 }
 
+.wrapper-container{
+    width: 80%;
+}
+
 .address{
     color: white;
     padding-left: 150px;
 }
 
+.bootstrap{
+    color: white;
+    padding-left: 150px;
+    text-align
+}
+
+.col-4, i {
+    font-size: 40px;
+    color: white;
+    border-radius: 50%;
+    padding-left: 50px;
+}
+
 .h4-text-color{
     color: white;
-    line-height: 25px;
+    line-height: 20px;
     padding-left: 150px;
-    padding-top: 100px;
+    padding-top: 30px; 
 }
+
+.h4-text-color-social{
+    color: white;
+    line-height: 20px;
+    padding-left: 100px;
+    padding-top: 30px; 
+}
+
+.h4-text-color-about{
+    color: white;
+    line-height: 20px;
+    padding-left: 148px;
+    padding-top: 30px; 
+
+}
+
+
 
 .h5-text-color{
     color: white;
